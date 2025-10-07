@@ -6279,7 +6279,6 @@
   <block id="2d0fcfb8d7bf7c097d1eab05f1ec38bf" category="list-text">Clique em *Select Directory*.</block>
   <block id="357a35aedd0c37deb3a881df778a9bb4" category="list-text">Clique em *Restaurar*.</block>
   <block id="36efab4c4632b349e0eb0c435971dc16" category="paragraph">O processo de restauração é iniciado.</block>
-  <block id="747c77249313eab0521246ecfbad977b" category="paragraph">Se uma operação de restauração falhar entre clusters de HA do Cloud Volumes ONTAP com um erro NDMP, talvez seja necessário adicionar uma rota explícita da AWS no cluster de destino para que o destino possa se comunicar com o LIF de gerenciamento de cluster do sistema de origem. Execute esta etapa de configuração usando o BlueXP .</block>
   <block id="0ffea4d1a2392900f6fba1c51566cdd4" category="summary">Você pode restaurar arquivos, diretórios ou um volume inteiro sobrescritos ou excluídos de uma cópia Snapshot usando o recurso de restauração na exibição integridade: Todos os volumes.</block>
   <block id="036725172e9a54f3efed0216988d3a33" category="doc">Restaurar dados usando a exibição Saúde: Todos os volumes</block>
   <block id="6eda9f37882fb76510c9f52b6a13b959" category="list-text">Na exibição *Saúde: Todos os volumes*, selecione um volume do qual você deseja restaurar os dados.</block>
@@ -11649,4 +11648,5 @@
   <block id="ca829e7fcd12bbc11f7fee9b4812424f" category="paragraph">Uma carga de trabalho definida pelo usuário ou definida pelo sistema cujo uso excessivo de um componente de cluster causou a diminuição do desempenho de outras cargas de trabalho, chamadas vítimas. O Unified Manager identifica cargas de trabalho bully com base em seu desvio no uso de um componente do cluster, em que o uso real, durante um evento, aumentou muito em relação ao intervalo de uso esperado.</block>
   <block id="8b9d5abd9f9b3fbb16864ce5aac02635" category="paragraph">Tubarão</block>
   <block id="96b132f1fc8aab91813901c505b7ccc5" category="paragraph">Um workload definido pelo usuário com a maior utilização de um componente de cluster em comparação a todas as cargas de trabalho envolvidas em um evento. O Unified Manager identifica workloads de tubarão com base no uso de um componente de cluster durante um evento.</block>
+  <block id="1daba90506b1f94ee6106dc86aa53476" category="paragraph">Se uma operação de restauração falhar entre clusters do Cloud Volumes ONTAP HA com um erro NDMP, talvez seja necessário adicionar uma rota AWS explícita no cluster de destino para que o destino possa se comunicar com o LIF de gerenciamento de cluster do sistema de origem. Execute esta etapa de configuração usando o NetApp Console.</block>
 </blocks>
